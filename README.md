@@ -1,1 +1,4 @@
-# LW4_Improving-CNN-Performance
+# LW4_Improving CNN Performance Using Regularization, Fine-Tuning, and Advanced Evaluation
+--
+
+
