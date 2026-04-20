@@ -1,6 +1,6 @@
 # 📝 LW4_Improving CNN Performance Using Regularization, Fine-Tuning, and Advanced Evaluation
 
-🖇️**Collab Link Here:...**
+🖇️**Collab Link Here:** https://colab.research.google.com/drive/144qb6dy_Vp9RJuLIYUa-bQQY3PyzAGvx#scrollTo=0e49067d
 --
 
 ❓GUIDE QUESTIONS (Student Explanation & Reflection)📝
