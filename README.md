@@ -8,7 +8,9 @@
 A. Model Evaluation Analysis
 --
 1. What were the weakest-performing classes based on the confusion matrix? <br>
+Answer: Based on the confusion matrix, the weakest performing classes are the ones with fewer correct predictions. Vanda Baby Angel has only 274 correct which results it to become the lowest value and shows heavy confusion with vanda classes.<br>
 2. How did Precision, Recall, and F1-score vary across classes? <br>
+Answer: The metrics mostly mirror what you see in the confusion matrix. Classess that are clearly recognized like Cymbrium have high precision and recall, so their F1-scores are strong. But classes like Vanda Baby Angel or Oncostelopsis struggle more, because the model mixes them up with similar looking orchids, which leads to lower recall and sometimes lowwer precision too, which brings their F1-scores down. <br>
 3. What does a low recall indicate in your model? <br>
 4. How does AUC score reflect model performance compared to accuracy? <br>
 
