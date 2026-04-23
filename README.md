@@ -18,10 +18,14 @@ A. Model Evaluation Analysis
 
 B. Model Improvement
 --
-5. How did data augmentation affect validation accuracy?
-6. Why is Batch Normalization important in CNNs?
-7. What role did Dropout play in improving your model?
-8. How did Early Stopping prevent overfitting?
+5. How did data augmentation affect validation accuracy? <br>
+💬Answer: Data augmentation usually improves validation accuracy by making the model better at handling variations. It helps prevent overfitting, so instead of just memorizing training images, the model generalizes better, and it will lead to stable and higher performance. <br>
+6. Why is Batch Normalization important in CNNs? <br>
+💬Answer: Batch Normalization is used in CNNs because it makes training a lot more stable and faster. Basically, it keeps the values inside the network from getting too large or too small as data flows through so the model doesn't have to keep adjusting to big changes while learning. <br>
+7. What role did Dropout play in improving your model? <br>
+💬Answer: Dropout helped improve the model by reducing overfitting. During training, it randomly "turns off" so the network can't rely too much on specific features or paths. This forces it to learn more generally instead of memorizing the training data, which usually leads to better performance on the unseen data.  <br>
+8. How did Early Stopping prevent overfitting? <br>
+💬Answer: It helps prevent overfitting by monitoring the model's performance on a validation set during training and stopping the process when that performance stops improving. So instead of letting the model keep training and start memorizing noise in the training data, it basically saves the version of the model that performed best on unseen data.  <br>
 
 C. Performance Comparison
 --
